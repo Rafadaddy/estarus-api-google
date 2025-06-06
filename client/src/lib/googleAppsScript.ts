@@ -1,7 +1,7 @@
 import type { BusUnit, InsertBusUnit } from "@shared/schema";
 
 // Google Apps Script Web App URL
-const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbw-_7JU1ks3506Y6OO1iIZMvtaw1Cceq0Bvlv7M42UbfHNo-fD14N1MhYBE3fqu22pT5g/exec";
+const APPS_SCRIPT_URL = "https://script.google.com/d/11SpCJNGINR5ZOJ9ezV0EbgWyxuMCSlPcl4PnRZ9lF1RtH8hPi168jasZ/edit?usp=sharing";
 
 export class GoogleAppsScriptAPI {
   private async makeRequest(url: string, options?: RequestInit): Promise<any> {
